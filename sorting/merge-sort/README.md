@@ -11,4 +11,4 @@ Input is from a file called `data.txt`.  Each line in `data.txt` is an input to 
 ### Output
 The sorted inputs (each line) are written to a file called `merge.out` in the same line-order that is in the `data.txt` input.
 ## Experimental Running Time
-![Merge Running Time](https://github.com/vchapple17/algorithms/blob/master/sorting/merge-sort/img/mergesort-performance.png "Merge Running Time")
+![Merge Running Time](https://github.com/vchapple17/algorithms/blob/master/sorting/merge-sort/img/mergesort-performance.png "Merge Running Time" =200px)
