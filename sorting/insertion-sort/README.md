@@ -1,6 +1,36 @@
 # Insertion Sort
 
 ## Description
+Insertion sort starts by examining the first two elements in a list.  If the first element is greater than the second element, they are swapped.  Then, the third element is examined with the second element. If the third element is less than the second, they are swapped, and then if the third element (now in the second spot) is less than the first element, the third element (now in the second spot) is swapped with the first element.  Then, the fourth element is examined against the third, and swapped if needed.  Swapping continues until the element being sorted is greater than the item preceeding it.
+
+## Example
+Sort:   `[50, 20, 40, 30, 70, 10]`
+
+### Examine First Two Elements
+`[50, 20]` --> Compare 20 and 50: 20 is less than 50, so they swap. Then, look at the next element.
+`[20, 50]` -->  End of list, go to next element if there are any.
+
+### Examine First Three Elements
+`[20, 50, 40]` -->  Compare 40 and 50: 40 is less than 50, so they swap
+`[20, 40, 50]` -->  Compare 40 and 20: 40 is greater than 20, look at the next element if there is one.
+
+### Examine First Four Elements
+`[20, 40, 50, 30]` -->  Compare 30 and 50: 30 is less than 50, so they swap
+`[20, 40, 30, 50]` -->  Compare 30 and 40: 30 is less than 40, so they swap
+`[20, 30, 40, 50]` -->  Compare 30 and 50: 30 is greater than 20, look at the next element if there is one.
+
+### Examine First Five Elements
+`[20, 30, 40, 50, 70]` -->  Compare 70 and 50: 70 is greater than 50, look at the next element if there is one.
+
+### Examine First Six Elements
+`[20, 30, 40, 50, 70, 10]` -->  Compare 10 and 70: 10 is less than 70, so they swap
+`[20, 30, 40, 50, 10, 70]` -->  Compare 10 and 50: 10 is less than 50, so they swap
+`[20, 30, 40, 10, 50, 70]` -->  Compare 10 and 40: 10 is less than 40, so they swap
+`[20, 30, 10, 40, 50, 70]` -->  Compare 10 and 30: 10 is less than 30, so they swap
+`[20, 10, 30, 40, 50, 70]` -->  Compare 10 and 20: 10 is less than 20, so they swap
+`[10, 20, 30, 40, 50, 70]` -->  End of list, go to next element if there are any.
+Compare 70 and 50: 70 is greater than 50, look at the next element.
+
 
 ## Theoretical Running Time
 
