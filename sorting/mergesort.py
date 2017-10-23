@@ -22,8 +22,8 @@ def mergeSort( list ):
 	
 	# RECURSION CASE
 	# Divide list into two lists
-	middle = len(list)//2 # floor division: https://docs.python.org/3/tutorial/introduction.html
-	list1 = list[:middle] # Cite: slicing: https://docs.python.org/3/tutorial/introduction.html
+	middle = len(list)//2
+	list1 = list[:middle]
 	list2 = list[middle:]
 
 	# Call mergeSort recursively on both new lists

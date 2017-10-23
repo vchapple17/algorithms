@@ -1,15 +1,12 @@
 #!/usr/bin/python
 # Valerie Chapple
-# HW 1: InsertSort
-# CS325e - Fall 2017
-# Due: Oct 1, 2017
+# Oct 2017
 
 import string
 
 # GLOBAL CONSTANTS
 FILE_IN_NAME = "data.txt"
 FILE_OUT_NAME = "insert.out"
-
 
 # FUNCTIONS
 
@@ -27,7 +24,6 @@ def insertionSort( list ):
 			tmp = list[key - 1]
 			list[key - 1] = list[key]
 			list[key] = tmp
-
 			#Update the index of key, as it just moved
 			key = key - 1
 		# Update indexToSort to next index value
@@ -49,12 +45,8 @@ resultFile = open( FILE_OUT_NAME, "w" );
 # Loop until end of file
 for line in dataFile:
 	intArray = line.split() 
-	intArray = [int(i) for i in intArray]	#cite: https://stackoverflow.com/questions/7368789/convert-all-strings-in-a-list-to-int
+	intArray = [int(i) for i in intArray]
 	
-	# Save first integer as number of integers on line
-	# Save rest of line as array
-	numInts = intArray.pop(0)
-
 	# Call insertionSort
 	sortedArray = insertionSort( intArray )
 
