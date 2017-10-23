@@ -26,10 +26,10 @@ Array size is denoted by the variable `n`.
 |
 
 Running Time vs. n<br>
-<img alt="Insertion Running Time" src="" height="350">
+<img alt="Insertion Running Time" src="https://github.com/vchapple17/algorithms/blob/master/sorting/insertion-sort/img/insert-linear.png" height="350">
 
-Running Time vs. n lg n<br>
-<img alt="Insertion Running Time" src="" height="350">
+Running Time vs. n<sup>2</sup><br>
+<img alt="Insertion Running Time" src="https://github.com/vchapple17/algorithms/blob/master/sorting/insertion-sort/img/insert-n-squared.png" height="350">
 
 # Conclusion
 The experimental running time for Insertion sort is directly related to the square of the size of the input, which aligns with the theoretical running time of Θ(n<sup>2</sup>).
