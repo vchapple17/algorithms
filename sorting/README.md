@@ -2,7 +2,7 @@
 ## Description
 Merge sort is a divide and conquer algorithm. It recursively takes a large problem and divides it into two relatively equal subproblems until the size of a subproblem is one element. A subproblem of size one is sorted.  To combine the sorted subproblems of one back together, a merge function is used.
 ## Analysis
-Merge sort divides a problem into two subproblems that are approximately half of the total problem. The recursion is approximately *T(n) = 2 T(\frac{n}/{2}) + n*, as technically the two halves of an odd-sized problem will required the floor and ceiling of *\frac{n}/{2}*.  The running time for a merge sort algorithm is *\Theta (n lg n)*.
+Merge sort divides a problem into two subproblems that are approximately half of the total problem. The recursion is approximately *T(n) = 2 T( n/2 ) + n*, as technically the two halves of an odd-sized problem will required the floor and ceiling of *n/2*.  The running time for a merge sort algorithm is *Θ(n lg n)*.
 ## mergesort.py
 ### Usage
 `python3 mergesort.py`
