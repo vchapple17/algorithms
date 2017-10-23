@@ -21,6 +21,7 @@ The sorted inputs (each line) are written to a file called `merge.out` in the sa
 
 # Data & Graph
 Array size is denoted by the variable `n`.
+
 | n | Time (s) |
 | ---------- | -------- |
 | 500	| 0.002 |
