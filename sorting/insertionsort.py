@@ -1,5 +1,6 @@
 #!/usr/bin/python
 # Valerie Chapple
+# Insertion sort with Python 3
 # Oct 2017
 
 import string
