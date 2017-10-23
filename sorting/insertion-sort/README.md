@@ -7,30 +7,31 @@ Insertion sort starts by examining the first two elements in a list.  If the fir
 Sort:   `[50, 20, 40, 30, 70, 10]`
 
 #### Examine First Two Elements
-`[50, 20]` --> Compare 20 and 50: 20 is less than 50, so they swap. Then, look at the next element.
-`[20, 50]` -->  End of list, go to next element if there are any.
+`[50, 20]` --> Compare 20 and 50: 20 is less than 50, so they swap. Then, look at the next element.<br>
+`[20, 50]` -->  End of list, go to next element if there are any.<br>
 
 #### Examine First Three Elements
-`[20, 50, 40]` -->  Compare 40 and 50: 40 is less than 50, so they swap
-`[20, 40, 50]` -->  Compare 40 and 20: 40 is greater than 20, look at the next element if there is one.
+`[20, 50, 40]` -->  Compare 40 and 50: 40 is less than 50, so they swap<br>
+`[20, 40, 50]` -->  Compare 40 and 20: 40 is greater than 20, look at the next element if there is one.<br>
 
 #### Examine First Four Elements
-`[20, 40, 50, 30]` -->  Compare 30 and 50: 30 is less than 50, so they swap
-`[20, 40, 30, 50]` -->  Compare 30 and 40: 30 is less than 40, so they swap
-`[20, 30, 40, 50]` -->  Compare 30 and 50: 30 is greater than 20, look at the next element if there is one.
+`[20, 40, 50, 30]` -->  Compare 30 and 50: 30 is less than 50, so they swap<br>
+`[20, 40, 30, 50]` -->  Compare 30 and 40: 30 is less than 40, so they swap<br>
+`[20, 30, 40, 50]` -->  Compare 30 and 50: 30 is greater than 20, look at the next element if there is one.<br>
 
 #### Examine First Five Elements
-`[20, 30, 40, 50, 70]` -->  Compare 70 and 50: 70 is greater than 50, look at the next element if there is one.
+`[20, 30, 40, 50, 70]` -->  Compare 70 and 50: 70 is greater than 50, look at the next element if there is one.<br>
 
 #### Examine First Six Elements
-`[20, 30, 40, 50, 70, 10]` -->  Compare 10 and 70: 10 is less than 70, so they swap
-`[20, 30, 40, 50, 10, 70]` -->  Compare 10 and 50: 10 is less than 50, so they swap
-`[20, 30, 40, 10, 50, 70]` -->  Compare 10 and 40: 10 is less than 40, so they swap
-`[20, 30, 10, 40, 50, 70]` -->  Compare 10 and 30: 10 is less than 30, so they swap
-`[20, 10, 30, 40, 50, 70]` -->  Compare 10 and 20: 10 is less than 20, so they swap
-`[10, 20, 30, 40, 50, 70]` -->  End of list, go to next element if there are any.
-Compare 70 and 50: 70 is greater than 50, look at the next element.
+`[20, 30, 40, 50, 70, 10]` -->  Compare 10 and 70: 10 is less than 70, so they swap<br>
+`[20, 30, 40, 50, 10, 70]` -->  Compare 10 and 50: 10 is less than 50, so they swap<br>
+`[20, 30, 40, 10, 50, 70]` -->  Compare 10 and 40: 10 is less than 40, so they swap<br>
+`[20, 30, 10, 40, 50, 70]` -->  Compare 10 and 30: 10 is less than 30, so they swap<br>
+`[20, 10, 30, 40, 50, 70]` -->  Compare 10 and 20: 10 is less than 20, so they swap<br>
+`[10, 20, 30, 40, 50, 70]` -->  End of list, go to next element if there are any.<br>
 
+#### List is sorted.
+`[10, 20, 30, 40, 50, 70]`
 
 ## Theoretical Running Time
 
