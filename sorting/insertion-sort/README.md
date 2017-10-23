@@ -34,7 +34,7 @@ Sort:   `[50, 20, 40, 30, 70, 10]`
 `[10, 20, 30, 40, 50, 70]`
 
 ## Theoretical Running Time
-
+Insertion sort starts with the first two items in a list of elements. It sorts those two items for one comparison. Then the algorithm examines one more element than before.  The number of comparisons can be 1 to n-1, with n being the number of elements being compared.  The number of times the list is expanded to include another element is `n` and the number of times the elements are compared is relative to `n`.  Therefore, the theoretical running time for the insertion sort algorithm is at worst *O(n<sup>2</sup>)* and at best Ω(n).
 
 ## insertsort.py
 
