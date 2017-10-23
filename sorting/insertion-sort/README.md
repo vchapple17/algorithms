@@ -23,7 +23,15 @@ Array size is denoted by the variable `n`.
 
 | n | Time (s) |
 | ---------- | -------- |
-|
+| 500  |  0.07|
+| 1000  |  0.38|
+| 2000  |  1.09|
+| 4000  |  3.85|
+| 5000  |  8.11|
+| 10000  |  24.84|
+| 20000  |  92.65|
+| 30000  |  246.11|
+| 50000  |  675.21|
 
 Running Time vs. n<br>
 <img alt="Insertion Running Time" src="https://github.com/vchapple17/algorithms/blob/master/sorting/insertion-sort/img/insert-linear.png" height="350">
