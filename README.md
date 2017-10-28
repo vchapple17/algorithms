@@ -9,5 +9,8 @@ Brief introduction to analysis of algorithms.
     * stooge sort
 * Dynamic Programming (future)
     * Making Change
+    * Fractional Knapsack
 * Greedy Algorithms (future)
     * Activity Selection
+    * 1/0 Knapsack
+
