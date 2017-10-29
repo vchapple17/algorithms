@@ -35,7 +35,7 @@ Array size is denoted by the variable `n`.
 | 1600  |  375.960|
 
 Running Time vs. n<br>
-<img alt="Stooge Running Time" src="https://github.com/vchapple17/algorithms/blob/master/sorting/stooge-sort/img/stooge-linear.png" height="350">
+<img alt="Stooge Running Time" src="https://github.com/vchapple17/algorithms/blob/master/sorting/stooge-sort/img/stooge-power.png" height="350">
 
 # Conclusion
 The experimental running time for Stooge sort is directly related to the size of the input to the power of of approximately 2.78, which aligns with the theoretical running time of Θ( n^2.71).
